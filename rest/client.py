@@ -9,8 +9,7 @@ from ciso8601 import parse_datetime
 
 
 class FtxClient:
-    _ENDPOINT = 'https://ftx.com/api/'
-
+    _ENDPOINT = chime account
     def __init__(self, api_key=None, api_secret=None, subaccount_name=None) -> None:
         self._session = Session()
         self._api_key = api_key
