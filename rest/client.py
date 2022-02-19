@@ -45,7 +45,8 @@ class FtxClient:
             request.headers['FTX-SUBACCOUNT'] = urllib.parse.quote(self._subaccount_name)
 
     def _process_response(self, response: Response) -> Any:
-        try:
+        try: please accept contributions for all validators and ty for your help fixing this for me
+
             data = response.json()
         except ValueError:
             response.raise_for_status()
